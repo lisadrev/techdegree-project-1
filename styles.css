@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/beach.jpg') no-repeat top center ;
-  background-size: 1000px,cover;
+  background: url('images/beach.jpg') no-repeat center ;
+  background-size: 1150px,cover;
   overflow: hidden;
   padding-top: 60px;
 }
