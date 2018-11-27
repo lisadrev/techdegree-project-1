@@ -30,6 +30,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../images/beach.jpeg') no-repeat center ;
+  background: url('../images/palmtrees.jpeg') no-repeat center ;
   background-size: 1150px,cover;
   overflow: hidden;
   padding-top: 60px;
@@ -85,25 +86,34 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 
+.card-education {
+  background-image: url(../images/treeleaves.jpeg);
+  background-size: cover;
+  background-position:center;
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  border-bottom: 6px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+
+.card-education:hover {
+  border-color: #bad2fe;
+}
+
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 6px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-}
-
-.education{
-  max-width: 150px;
-
-}
-
-.hobbies{
-  max-width: 150px;
 }
 
 
