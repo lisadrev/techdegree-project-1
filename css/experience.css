@@ -51,6 +51,7 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  color: black;
 }
 .nav a:hover {
   color: white
